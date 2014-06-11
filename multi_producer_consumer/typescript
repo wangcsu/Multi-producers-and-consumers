@@ -1,0 +1,669 @@
+Script started on Wed Jun  4 22:00:16 2014
+bash: /Users/Frank/git-completion.bash: No such file or directory
+]0;~/Desktop/CS4560/multi_producer_consumer/multi_producer_consumerbash: __git_ps1: command not found
+[?1034h[multi_producer_consumer]$ ./main 25 1 1
+Main thread beginning
+Creating producer thread with id 109092864l
+Creating consumer thread with id 109629440l
+Main thread sleeping for 25 seconds
+Producer thread 109092864l sleeping for 2 seconds
+Consumer thread 109629440l sleeping for 2 seconds
+Insert_item inserted item 1622650073 at position 1
+[1622650073][empty][empty][empty][empty]in = 2, out = 1
+Producer thread 109092864l inserted value 1622650073
+Producer thread 109092864l sleeping for 3 seconds
+Remove_item removed item 1622650073 at position 1
+[empty][empty][empty][empty][empty]in = 2, out = 2
+Consumer thread 109629440l removed value 1622650073
+Consumer thread 109629440l sleeping for 2 seconds
+Consumer report error condition
+Consumer thread 109629440l sleeping for 3 seconds
+Insert_item inserted item 101027544 at position 2
+[empty][101027544][empty][empty][empty]in = 3, out = 2
+Producer thread 109092864l inserted value 101027544
+Producer thread 109092864l sleeping for 3 seconds
+Remove_item removed item 101027544 at position 2
+[empty][empty][empty][empty][empty]in = 3, out = 3
+Consumer thread 109629440l removed value 101027544
+Consumer thread 109629440l sleeping for 3 seconds
+Insert_item inserted item 2007237709 at position 3
+[empty][empty][2007237709][empty][empty]in = 4, out = 3
+Producer thread 109092864l inserted value 2007237709
+Producer thread 109092864l sleeping for 1 seconds
+Insert_item inserted item 1115438165 at position 4
+[empty][empty][2007237709][1115438165][empty]in = 5, out = 3
+Producer thread 109092864l inserted value 1115438165
+Producer thread 109092864l sleeping for 1 seconds
+Remove_item removed item 2007237709 at position 3
+[empty][empty][empty][1115438165][empty]in = 5, out = 4
+Consumer thread 109629440l removed value 2007237709
+Consumer thread 109629440l sleeping for 3 seconds
+Insert_item inserted item 114807987 at position 5
+[empty][empty][empty][1115438165][114807987]in = 1, out = 4
+Producer thread 109092864l inserted value 114807987
+Producer thread 109092864l sleeping for 3 seconds
+Remove_item removed item 1115438165 at position 4
+[empty][empty][empty][empty][114807987]in = 1, out = 5
+Consumer thread 109629440l removed value 1115438165
+Consumer thread 109629440l sleeping for 2 seconds
+Insert_item inserted item 1441282327 at position 1
+[1441282327][empty][empty][empty][114807987]in = 2, out = 5
+Producer thread 109092864l inserted value 1441282327
+Producer thread 109092864l sleeping for 2 seconds
+Remove_item removed item 114807987 at position 5
+[1441282327][empty][empty][empty][empty]in = 2, out = 1
+Consumer thread 109629440l removed value 114807987
+Consumer thread 109629440l sleeping for 1 seconds
+Insert_item inserted item 143542612 at position 2
+[1441282327][143542612][empty][empty][empty]in = 3, out = 1
+Producer thread 109092864l inserted value 143542612
+Producer thread 109092864l sleeping for 2 seconds
+Remove_item removed item 1441282327 at position 1
+[empty][143542612][empty][empty][empty]in = 3, out = 2
+Consumer thread 109629440l removed value 1441282327
+Consumer thread 109629440l sleeping for 1 seconds
+Insert_item inserted item 1998097157 at position 3
+[empty][143542612][1998097157][empty][empty]in = 4, out = 2
+Producer thread 109092864l inserted value 1998097157
+Producer thread 109092864l sleeping for 2 seconds
+Remove_item removed item 143542612 at position 2
+[empty][empty][1998097157][empty][empty]in = 4, out = 3
+Consumer thread 109629440l removed value 143542612
+Consumer thread 109629440l sleeping for 1 seconds
+Remove_item removed item 1998097157 at position 3
+[empty][empty][empty][empty][empty]in = 4, out = 4
+Consumer thread 109629440l removed value 1998097157
+Consumer thread 109629440l sleeping for 1 seconds
+Insert_item inserted item 1404280278 at position 4
+[empty][empty][empty][1404280278][empty]in = 5, out = 4
+Producer thread 109092864l inserted value 1404280278
+Producer thread 109092864l sleeping for 3 seconds
+Remove_item removed item 1404280278 at position 4
+[empty][empty][empty][empty][empty]in = 5, out = 5
+Consumer thread 109629440l removed value 1404280278
+Consumer thread 109629440l sleeping for 2 seconds
+Consumer report error condition
+Consumer thread 109629440l sleeping for 2 seconds
+Insert_item inserted item 1636807826 at position 5
+[empty][empty][empty][empty][1636807826]in = 1, out = 5
+Producer thread 109092864l inserted value 1636807826
+Producer thread 109092864l sleeping for 3 seconds
+Remove_item removed item 1636807826 at position 5
+[empty][empty][empty][empty][empty]in = 1, out = 1
+Consumer thread 109629440l removed value 1636807826
+Consumer thread 109629440l sleeping for 2 seconds
+Main thread exiting
+]0;~/Desktop/CS4560/multi_producer_consumer/multi_producer_consumerbash: __git_ps1: command not found
+[multi_producer_consumer]$ ./main 25 6 6
+Main thread beginning
+Creating producer thread with id 245858304l
+Producer thread 245858304l sleeping for 2 seconds
+Producer thread 246394880l sleeping for 2 seconds
+Creating producer thread with id 246394880l
+Creating producer thread with id 246931456l
+Producer thread 246931456l sleeping for 3 seconds
+Creating producer thread with id 247468032l
+Creating producer thread with id 248004608l
+Producer thread 247468032l sleeping for 3 seconds
+Creating producer thread with id 248541184l
+Producer thread 248004608l sleeping for 2 seconds
+Creating consumer thread with id 249077760l
+Producer thread 248541184l sleeping for 3 seconds
+Consumer thread 249077760l sleeping for 1 seconds
+Creating consumer thread with id 249614336l
+Consumer thread 249614336l sleeping for 3 seconds
+Creating consumer thread with id 250150912l
+Consumer thread 250150912l sleeping for 3 seconds
+Creating consumer thread with id 250687488l
+Creating consumer thread with id 251224064l
+Consumer thread 250687488l sleeping for 2 seconds
+Consumer thread 251224064l sleeping for 1 seconds
+Creating consumer thread with id 251760640l
+Consumer thread 251760640l sleeping for 3 seconds
+Main thread sleeping for 25 seconds
+Consumer report error condition
+Consumer thread 249077760l sleeping for 1 seconds
+Consumer report error condition
+Consumer thread 251224064l sleeping for 3 seconds
+Insert_item inserted item 114807987 at position 1
+[114807987][empty][empty][empty][empty]in = 2, out = 1
+Producer thread 245858304l inserted value 114807987
+Producer thread 245858304l sleeping for 2 seconds
+Insert_item inserted item 1137522503 at position 2
+[114807987][1137522503][empty][empty][empty]in = 3, out = 1
+Producer thread 248004608l inserted value 1137522503
+Producer thread 248004608l sleeping for 2 seconds
+Insert_item inserted item 1137522503 at position 3
+[114807987][1137522503][1137522503][empty][empty]in = 4, out = 1
+Producer thread 246394880l inserted value 1137522503
+Producer thread 246394880l sleeping for 2 seconds
+Remove_item removed item 114807987 at position 1
+[empty][1137522503][1137522503][empty][empty]in = 4, out = 2
+Consumer thread 250687488l removed value 114807987
+Consumer thread 250687488l sleeping for 2 seconds
+Remove_item removed item 1137522503 at position 2
+[empty][empty][1137522503][empty][empty]in = 4, out = 3
+Consumer thread 249077760l removed value 1137522503
+Consumer thread 249077760l sleeping for 1 seconds
+Insert_item inserted item 1474833169 at position 4
+[empty][empty][1137522503][1474833169][empty]in = 5, out = 3
+Producer thread 246931456l inserted value 1474833169
+Producer thread 246931456l sleeping for 3 seconds
+Insert_item inserted item 1264817709 at position 5
+[empty][empty][1137522503][1474833169][1264817709]in = 1, out = 3
+Producer thread 247468032l inserted value 1264817709
+Producer thread 247468032l sleeping for 2 seconds
+Insert_item inserted item 1264817709 at position 1
+[1264817709][empty][1137522503][1474833169][1264817709]in = 2, out = 3
+Producer thread 248541184l inserted value 1264817709
+Producer thread 248541184l sleeping for 1 seconds
+Remove_item removed item 1137522503 at position 3
+[1264817709][empty][empty][1474833169][1264817709]in = 2, out = 4
+Consumer thread 249614336l removed value 1137522503
+Consumer thread 249614336l sleeping for 1 seconds
+Remove_item removed item 1474833169 at position 4
+[1264817709][empty][empty][empty][1264817709]in = 2, out = 5
+Consumer thread 250150912l removed value 1474833169
+Consumer thread 250150912l sleeping for 1 seconds
+Remove_item removed item 1264817709 at position 5
+[1264817709][empty][empty][empty][empty]in = 2, out = 1
+Consumer thread 251760640l removed value 1264817709
+Consumer thread 251760640l sleeping for 3 seconds
+Remove_item removed item 1264817709 at position 1
+[empty][empty][empty][empty][empty]in = 2, out = 2
+Consumer thread 249077760l removed value 1264817709
+Consumer thread 249077760l sleeping for 2 seconds
+Insert_item inserted item 1954899097 at position 2
+[empty][1954899097][empty][empty][empty]in = 3, out = 2
+Producer thread 245858304l inserted value 1954899097
+Producer thread 245858304l sleeping for 2 seconds
+Insert_item inserted item 1954899097 at position 3
+[empty][1954899097][1954899097][empty][empty]in = 4, out = 2
+Producer thread 248004608l inserted value 1954899097
+Producer thread 248004608l sleeping for 3 seconds
+Remove_item removed item 1954899097 at position 2
+[empty][empty][1954899097][empty][empty]in = 4, out = 3
+Consumer thread 250687488l removed value 1954899097
+Consumer thread 250687488l sleeping for 1 seconds
+Insert_item inserted item 1636807826 at position 4
+[empty][empty][1954899097][1636807826][empty]in = 5, out = 3
+Producer thread 246394880l inserted value 1636807826
+Producer thread 246394880l sleeping for 2 seconds
+Insert_item inserted item 563613512 at position 5
+[empty][empty][1954899097][1636807826][563613512]in = 1, out = 3
+Producer thread 248541184l inserted value 563613512
+Producer thread 248541184l sleeping for 2 seconds
+Remove_item removed item 1954899097 at position 3
+[empty][empty][empty][1636807826][563613512]in = 1, out = 4
+Consumer thread 249614336l removed value 1954899097
+Consumer thread 249614336l sleeping for 1 seconds
+Remove_item removed item 1636807826 at position 4
+[empty][empty][empty][empty][563613512]in = 1, out = 5
+Consumer thread 251224064l removed value 1636807826
+Consumer thread 251224064l sleeping for 1 seconds
+Remove_item removed item 563613512 at position 5
+[empty][empty][empty][empty][empty]in = 1, out = 1
+Consumer thread 250150912l removed value 563613512
+Consumer thread 250150912l sleeping for 2 seconds
+Insert_item inserted item 2110010672 at position 1
+[2110010672][empty][empty][empty][empty]in = 2, out = 1
+Producer thread 247468032l inserted value 2110010672
+Producer thread 247468032l sleeping for 2 seconds
+Remove_item removed item 2110010672 at position 1
+[empty][empty][empty][empty][empty]in = 2, out = 2
+Consumer thread 249077760l removed value 2110010672
+Consumer thread 249077760l sleeping for 1 seconds
+Consumer report error condition
+Consumer thread 250687488l sleeping for 3 seconds
+Consumer report error condition
+Consumer thread 251224064l sleeping for 3 seconds
+Consumer report error condition
+Consumer thread 249614336l sleeping for 3 seconds
+Insert_item inserted item 1899894091 at position 2
+[empty][1899894091][empty][empty][empty]in = 3, out = 2
+Producer thread 246931456l inserted value 1899894091
+Producer thread 246931456l sleeping for 1 seconds
+Remove_item removed item 1899894091 at position 2
+[empty][empty][empty][empty][empty]in = 3, out = 3
+Consumer thread 251760640l removed value 1899894091
+Consumer thread 251760640l sleeping for 2 seconds
+Insert_item inserted item 1646035001 at position 3
+[empty][empty][1646035001][empty][empty]in = 4, out = 3
+Producer thread 246394880l inserted value 1646035001
+Producer thread 246394880l sleeping for 2 seconds
+Remove_item removed item 1646035001 at position 3
+[empty][empty][empty][empty][empty]in = 4, out = 4
+Consumer thread 249077760l removed value 1646035001
+Consumer thread 249077760l sleeping for 2 seconds
+Insert_item inserted item 1025921153 at position 4
+[empty][empty][empty][1025921153][empty]in = 5, out = 4
+Producer thread 245858304l inserted value 1025921153
+Producer thread 245858304l sleeping for 3 seconds
+Insert_item inserted item 510616708 at position 5
+[empty][empty][empty][1025921153][510616708]in = 1, out = 4
+Producer thread 248541184l inserted value 510616708
+Producer thread 248541184l sleeping for 1 seconds
+Remove_item removed item 1025921153 at position 4
+[empty][empty][empty][empty][510616708]in = 1, out = 5
+Consumer thread 250150912l removed value 1025921153
+Consumer thread 250150912l sleeping for 3 seconds
+Insert_item inserted item 1952509530 at position 1
+[1952509530][empty][empty][empty][510616708]in = 2, out = 5
+Producer thread 246931456l inserted value 1952509530
+Producer thread 246931456l sleeping for 2 seconds
+Insert_item inserted item 130060903 at position 2
+[1952509530][130060903][empty][empty][510616708]in = 3, out = 5
+Producer thread 248004608l inserted value 130060903
+Producer thread 248004608l sleeping for 2 seconds
+Insert_item inserted item 130060903 at position 3
+[1952509530][130060903][130060903][empty][510616708]in = 4, out = 5
+Producer thread 247468032l inserted value 130060903
+Producer thread 247468032l sleeping for 1 seconds
+Insert_item inserted item 685118024 at position 4
+[1952509530][130060903][130060903][685118024][510616708]in = 5, out = 5
+Producer thread 248541184l inserted value 685118024
+Producer thread 248541184l sleeping for 3 seconds
+Remove_item removed item 510616708 at position 5
+[1952509530][130060903][130060903][685118024][empty]in = 5, out = 1
+Consumer thread 250687488l removed value 510616708
+Consumer thread 250687488l sleeping for 2 seconds
+Remove_item removed item 1952509530 at position 1
+[empty][130060903][130060903][685118024][empty]in = 5, out = 2
+Consumer thread 251760640l removed value 1952509530
+Consumer thread 251760640l sleeping for 1 seconds
+Remove_item removed item 130060903 at position 2
+[empty][empty][130060903][685118024][empty]in = 5, out = 3
+Consumer thread 251224064l removed value 130060903
+Consumer thread 251224064l sleeping for 2 seconds
+Remove_item removed item 130060903 at position 3
+[empty][empty][empty][685118024][empty]in = 5, out = 4
+Consumer thread 249614336l removed value 130060903
+Consumer thread 249614336l sleeping for 2 seconds
+Insert_item inserted item 194847408 at position 5
+[empty][empty][empty][685118024][194847408]in = 1, out = 4
+Producer thread 246394880l inserted value 194847408
+Producer thread 246394880l sleeping for 2 seconds
+Remove_item removed item 685118024 at position 4
+[empty][empty][empty][empty][194847408]in = 1, out = 5
+Consumer thread 249077760l removed value 685118024
+Consumer thread 249077760l sleeping for 2 seconds
+Insert_item inserted item 2035308228 at position 1
+[2035308228][empty][empty][empty][194847408]in = 2, out = 5
+Producer thread 247468032l inserted value 2035308228
+Producer thread 247468032l sleeping for 2 seconds
+Insert_item inserted item 1137623865 at position 2
+[2035308228][1137623865][empty][empty][194847408]in = 3, out = 5
+Producer thread 246931456l inserted value 1137623865
+Producer thread 246931456l sleeping for 3 seconds
+Insert_item inserted item 1137623865 at position 3
+[2035308228][1137623865][1137623865][empty][194847408]in = 4, out = 5
+Producer thread 245858304l inserted value 1137623865
+Producer thread 245858304l sleeping for 1 seconds
+Insert_item inserted item 997389814 at position 4
+[2035308228][1137623865][1137623865][997389814][194847408]in = 5, out = 5
+Producer thread 248004608l inserted value 997389814
+Producer thread 248004608l sleeping for 3 seconds
+Remove_item removed item 194847408 at position 5
+[2035308228][1137623865][1137623865][997389814][empty]in = 5, out = 1
+Consumer thread 250150912l removed value 194847408
+Consumer thread 250150912l sleeping for 3 seconds
+Remove_item removed item 2035308228 at position 1
+[empty][1137623865][1137623865][997389814][empty]in = 5, out = 2
+Consumer thread 251760640l removed value 2035308228
+Consumer thread 251760640l sleeping for 1 seconds
+Insert_item inserted item 269220094 at position 5
+[empty][1137623865][1137623865][997389814][269220094]in = 1, out = 2
+Producer thread 248541184l inserted value 269220094
+Producer thread 248541184l sleeping for 3 seconds
+Remove_item removed item 1137623865 at position 2
+[empty][empty][1137623865][997389814][269220094]in = 1, out = 3
+Consumer thread 251224064l removed value 1137623865
+Consumer thread 251224064l sleeping for 1 seconds
+Remove_item removed item 1137623865 at position 3
+[empty][empty][empty][997389814][269220094]in = 1, out = 4
+Consumer thread 250687488l removed value 1137623865
+Consumer thread 250687488l sleeping for 3 seconds
+Remove_item removed item 997389814 at position 4
+[empty][empty][empty][empty][269220094]in = 1, out = 5
+Consumer thread 249614336l removed value 997389814
+Consumer thread 249614336l sleeping for 1 seconds
+Insert_item inserted item 34075629 at position 1
+[34075629][empty][empty][empty][269220094]in = 2, out = 5
+Producer thread 246394880l inserted value 34075629
+Producer thread 246394880l sleeping for 1 seconds
+Insert_item inserted item 1478446501 at position 2
+[34075629][1478446501][empty][empty][269220094]in = 3, out = 5
+Producer thread 247468032l inserted value 1478446501
+Producer thread 247468032l sleeping for 1 seconds
+Remove_item removed item 269220094 at position 5
+[34075629][1478446501][empty][empty][empty]in = 3, out = 1
+Consumer thread 249077760l removed value 269220094
+Consumer thread 249077760l sleeping for 3 seconds
+Insert_item inserted item 1351934195 at position 3
+[34075629][1478446501][1351934195][empty][empty]in = 4, out = 1
+Producer thread 245858304l inserted value 1351934195
+Producer thread 245858304l sleeping for 3 seconds
+Remove_item removed item 34075629 at position 1
+[empty][1478446501][1351934195][empty][empty]in = 4, out = 2
+Consumer thread 251760640l removed value 34075629
+Consumer thread 251760640l sleeping for 2 seconds
+Remove_item removed item 1478446501 at position 2
+[empty][empty][1351934195][empty][empty]in = 4, out = 3
+Consumer thread 251224064l removed value 1478446501
+Consumer thread 251224064l sleeping for 2 seconds
+Insert_item inserted item 1816731566 at position 4
+[empty][empty][1351934195][1816731566][empty]in = 5, out = 3
+Producer thread 247468032l inserted value 1816731566
+Producer thread 247468032l sleeping for 1 seconds
+Remove_item removed item 1351934195 at position 3
+[empty][empty][empty][1816731566][empty]in = 5, out = 4
+Consumer thread 249614336l removed value 1351934195
+Consumer thread 249614336l sleeping for 3 seconds
+Insert_item inserted item 1269406752 at position 5
+[empty][empty][empty][1816731566][1269406752]in = 1, out = 4
+Producer thread 246394880l inserted value 1269406752
+Producer thread 246394880l sleeping for 1 seconds
+Insert_item inserted item 1153851501 at position 1
+[1153851501][empty][empty][1816731566][1269406752]in = 2, out = 4
+Producer thread 246931456l inserted value 1153851501
+Producer thread 246931456l sleeping for 3 seconds
+Insert_item inserted item 1004844897 at position 2
+[1153851501][1004844897][empty][1816731566][1269406752]in = 3, out = 4
+Producer thread 248004608l inserted value 1004844897
+Producer thread 248004608l sleeping for 3 seconds
+Remove_item removed item 1816731566 at position 4
+[1153851501][1004844897][empty][empty][1269406752]in = 3, out = 5
+Consumer thread 250150912l removed value 1816731566
+Consumer thread 250150912l sleeping for 3 seconds
+Remove_item removed item 1269406752 at position 5
+[1153851501][1004844897][empty][empty][empty]in = 3, out = 1
+Consumer thread 251760640l removed value 1269406752
+Consumer thread 251760640l sleeping for 3 seconds
+Insert_item inserted item 1723153177 at position 3
+[1153851501][1004844897][1723153177][empty][empty]in = 4, out = 1
+Producer thread 247468032l inserted value 1723153177
+Producer thread 247468032l sleeping for 1 seconds
+Insert_item inserted item 1147722294 at position 4
+[1153851501][1004844897][1723153177][1147722294][empty]in = 5, out = 1
+Producer thread 246394880l inserted value 1147722294
+Producer thread 246394880l sleeping for 1 seconds
+Remove_item removed item 1153851501 at position 1
+[empty][1004844897][1723153177][1147722294][empty]in = 5, out = 2
+Consumer thread 250687488l removed value 1153851501
+Consumer thread 250687488l sleeping for 3 seconds
+Insert_item inserted item 2051621609 at position 5
+[empty][1004844897][1723153177][1147722294][2051621609]in = 1, out = 2
+Producer thread 248541184l inserted value 2051621609
+Producer thread 248541184l sleeping for 1 seconds
+Insert_item inserted item 1606946231 at position 1
+[1606946231][1004844897][1723153177][1147722294][2051621609]in = 2, out = 2
+Producer thread 245858304l inserted value 1606946231
+Producer thread 245858304l sleeping for 1 seconds
+Remove_item removed item 1004844897 at position 2
+[1606946231][empty][1723153177][1147722294][2051621609]in = 2, out = 3
+Consumer thread 249077760l removed value 1004844897
+Consumer thread 249077760l sleeping for 3 seconds
+Remove_item removed item 1723153177 at position 3
+[1606946231][empty][empty][1147722294][2051621609]in = 2, out = 4
+Consumer thread 251224064l removed value 1723153177
+Consumer thread 251224064l sleeping for 2 seconds
+Insert_item inserted item 456880399 at position 2
+[1606946231][456880399][empty][1147722294][2051621609]in = 3, out = 4
+Producer thread 247468032l inserted value 456880399
+Producer thread 247468032l sleeping for 3 seconds
+Insert_item inserted item 1534827968 at position 3
+[1606946231][456880399][1534827968][1147722294][2051621609]in = 4, out = 4
+Producer thread 246394880l inserted value 1534827968
+Producer thread 246394880l sleeping for 1 seconds
+Producer report error condition
+Producer thread 245858304l sleeping for 2 seconds
+Remove_item removed item 1147722294 at position 4
+[1606946231][456880399][1534827968][empty][2051621609]in = 4, out = 5
+Consumer thread 249614336l removed value 1147722294
+Consumer thread 249614336l sleeping for 1 seconds
+Insert_item inserted item 6441594 at position 4
+[1606946231][456880399][1534827968][6441594][2051621609]in = 5, out = 5
+Producer thread 248541184l inserted value 6441594
+Producer thread 248541184l sleeping for 3 seconds
+Producer report error condition
+Producer thread 246394880l sleeping for 2 seconds
+Producer report error condition
+Producer thread 248004608l sleeping for 1 seconds
+Producer report error condition
+Producer thread 246931456l sleeping for 2 seconds
+Remove_item removed item 2051621609 at position 5
+[1606946231][456880399][1534827968][6441594][empty]in = 5, out = 1
+Consumer thread 250150912l removed value 2051621609
+Consumer thread 250150912l sleeping for 2 seconds
+Remove_item removed item 1606946231 at position 1
+[empty][456880399][1534827968][6441594][empty]in = 5, out = 2
+Consumer thread 251760640l removed value 1606946231
+Consumer thread 251760640l sleeping for 2 seconds
+Remove_item removed item 456880399 at position 2
+[empty][empty][1534827968][6441594][empty]in = 5, out = 3
+Consumer thread 251224064l removed value 456880399
+Consumer thread 251224064l sleeping for 2 seconds
+Remove_item removed item 1534827968 at position 3
+[empty][empty][empty][6441594][empty]in = 5, out = 4
+Consumer thread 249614336l removed value 1534827968
+Consumer thread 249614336l sleeping for 2 seconds
+Remove_item removed item 6441594 at position 4
+[empty][empty][empty][empty][empty]in = 5, out = 5
+Consumer thread 249077760l removed value 6441594
+Consumer thread 249077760l sleeping for 2 seconds
+Consumer report error condition
+Consumer thread 250687488l sleeping for 1 seconds
+Insert_item inserted item 832633821 at position 5
+[empty][empty][empty][empty][832633821]in = 1, out = 5
+Producer thread 247468032l inserted value 832633821
+Producer thread 247468032l sleeping for 3 seconds
+Insert_item inserted item 1073185695 at position 1
+[1073185695][empty][empty][empty][832633821]in = 2, out = 5
+Producer thread 248004608l inserted value 1073185695
+Producer thread 248004608l sleeping for 1 seconds
+Insert_item inserted item 1267248590 at position 2
+[1073185695][1267248590][empty][empty][832633821]in = 3, out = 5
+Producer thread 245858304l inserted value 1267248590
+Producer thread 245858304l sleeping for 3 seconds
+Insert_item inserted item 318153057 at position 3
+[1073185695][1267248590][318153057][empty][832633821]in = 4, out = 5
+Producer thread 246394880l inserted value 318153057
+Producer thread 246394880l sleeping for 2 seconds
+Insert_item inserted item 877819790 at position 4
+[1073185695][1267248590][318153057][877819790][832633821]in = 5, out = 5
+Producer thread 246931456l inserted value 877819790
+Producer thread 246931456l sleeping for 3 seconds
+Remove_item removed item 832633821 at position 5
+[1073185695][1267248590][318153057][877819790][empty]in = 5, out = 1
+Consumer thread 250150912l removed value 832633821
+Consumer thread 250150912l sleeping for 2 seconds
+Remove_item removed item 1073185695 at position 1
+[empty][1267248590][318153057][877819790][empty]in = 5, out = 2
+Consumer thread 251760640l removed value 1073185695
+Consumer thread 251760640l sleeping for 3 seconds
+Remove_item removed item 1267248590 at position 2
+[empty][empty][318153057][877819790][empty]in = 5, out = 3
+Consumer thread 250687488l removed value 1267248590
+Consumer thread 250687488l sleeping for 2 seconds
+Remove_item removed item 318153057 at position 3
+[empty][empty][empty][877819790][empty]in = 5, out = 4
+Consumer thread 251224064l removed value 318153057
+Consumer thread 251224064l sleeping for 3 seconds
+Insert_item inserted item 2063936098 at position 5
+[empty][empty][empty][877819790][2063936098]in = 1, out = 4
+Producer thread 248541184l inserted value 2063936098
+Producer thread 248541184l sleeping for 1 seconds
+Insert_item inserted item 270649095 at position 1
+[270649095][empty][empty][877819790][2063936098]in = 2, out = 4
+Producer thread 248004608l inserted value 270649095
+Producer thread 248004608l sleeping for 1 seconds
+Remove_item removed item 877819790 at position 4
+[270649095][empty][empty][empty][2063936098]in = 2, out = 5
+Consumer thread 249614336l removed value 877819790
+Consumer thread 249614336l sleeping for 3 seconds
+Remove_item removed item 2063936098 at position 5
+[270649095][empty][empty][empty][empty]in = 2, out = 1
+Consumer thread 249077760l removed value 2063936098
+Consumer thread 249077760l sleeping for 2 seconds
+Insert_item inserted item 1398556760 at position 2
+[270649095][1398556760][empty][empty][empty]in = 3, out = 1
+Producer thread 246394880l inserted value 1398556760
+Producer thread 246394880l sleeping for 1 seconds
+Insert_item inserted item 1334948905 at position 3
+[270649095][1398556760][1334948905][empty][empty]in = 4, out = 1
+Producer thread 248004608l inserted value 1334948905
+Producer thread 248004608l sleeping for 1 seconds
+Insert_item inserted item 1334948905 at position 4
+[270649095][1398556760][1334948905][1334948905][empty]in = 5, out = 1
+Producer thread 248541184l inserted value 1334948905
+Producer thread 248541184l sleeping for 3 seconds
+Remove_item removed item 270649095 at position 1
+[empty][1398556760][1334948905][1334948905][empty]in = 5, out = 2
+Consumer thread 250150912l removed value 270649095
+Consumer thread 250150912l sleeping for 3 seconds
+Insert_item inserted item 836045813 at position 5
+[empty][1398556760][1334948905][1334948905][836045813]in = 1, out = 2
+Producer thread 247468032l inserted value 836045813
+Producer thread 247468032l sleeping for 1 seconds
+Remove_item removed item 1398556760 at position 2
+[empty][empty][1334948905][1334948905][836045813]in = 1, out = 3
+Consumer thread 250687488l removed value 1398556760
+Consumer thread 250687488l sleeping for 2 seconds
+Insert_item inserted item 915896220 at position 1
+[915896220][empty][1334948905][1334948905][836045813]in = 2, out = 3
+Producer thread 245858304l inserted value 915896220
+Producer thread 245858304l sleeping for 3 seconds
+Insert_item inserted item 2034712366 at position 2
+[915896220][2034712366][1334948905][1334948905][836045813]in = 3, out = 3
+Producer thread 246394880l inserted value 2034712366
+Producer thread 246394880l sleeping for 3 seconds
+Producer report error condition
+Producer thread 248004608l sleeping for 1 seconds
+Producer report error condition
+Producer thread 246931456l sleeping for 2 seconds
+Remove_item removed item 1334948905 at position 3
+[915896220][2034712366][empty][1334948905][836045813]in = 3, out = 4
+Consumer thread 251760640l removed value 1334948905
+Consumer thread 251760640l sleeping for 2 seconds
+Remove_item removed item 1334948905 at position 4
+[915896220][2034712366][empty][empty][836045813]in = 3, out = 5
+Consumer thread 249077760l removed value 1334948905
+Consumer thread 249077760l sleeping for 3 seconds
+Remove_item removed item 836045813 at position 5
+[915896220][2034712366][empty][empty][empty]in = 3, out = 1
+Consumer thread 251224064l removed value 836045813
+Consumer thread 251224064l sleeping for 1 seconds
+Insert_item inserted item 348318738 at position 3
+[915896220][2034712366][348318738][empty][empty]in = 4, out = 1
+Producer thread 247468032l inserted value 348318738
+Producer thread 247468032l sleeping for 2 seconds
+Remove_item removed item 915896220 at position 1
+[empty][2034712366][348318738][empty][empty]in = 4, out = 2
+Consumer thread 249614336l removed value 915896220
+Consumer thread 249614336l sleeping for 1 seconds
+Insert_item inserted item 750597385 at position 4
+[empty][2034712366][348318738][750597385][empty]in = 5, out = 2
+Producer thread 248004608l inserted value 750597385
+Producer thread 248004608l sleeping for 2 seconds
+Remove_item removed item 2034712366 at position 2
+[empty][empty][348318738][750597385][empty]in = 5, out = 3
+Consumer thread 250687488l removed value 2034712366
+Consumer thread 250687488l sleeping for 3 seconds
+Remove_item removed item 348318738 at position 3
+[empty][empty][empty][750597385][empty]in = 5, out = 4
+Consumer thread 251224064l removed value 348318738
+Consumer thread 251224064l sleeping for 1 seconds
+Remove_item removed item 750597385 at position 4
+[empty][empty][empty][empty][empty]in = 5, out = 5
+Consumer thread 249614336l removed value 750597385
+Consumer thread 249614336l sleeping for 3 seconds
+Insert_item inserted item 462242385 at position 5
+[empty][empty][empty][empty][462242385]in = 1, out = 5
+Producer thread 248541184l inserted value 462242385
+Producer thread 248541184l sleeping for 2 seconds
+Remove_item removed item 462242385 at position 5
+[empty][empty][empty][empty][empty]in = 1, out = 1
+Consumer thread 250150912l removed value 462242385
+Consumer thread 250150912l sleeping for 2 seconds
+Insert_item inserted item 1951894885 at position 1
+[1951894885][empty][empty][empty][empty]in = 2, out = 1
+Producer thread 246931456l inserted value 1951894885
+Producer thread 246931456l sleeping for 3 seconds
+Insert_item inserted item 1951894885 at position 2
+[1951894885][1951894885][empty][empty][empty]in = 3, out = 1
+Producer thread 245858304l inserted value 1951894885
+Producer thread 245858304l sleeping for 3 seconds
+Remove_item removed item 1951894885 at position 1
+[empty][1951894885][empty][empty][empty]in = 3, out = 2
+Consumer thread 251760640l removed value 1951894885
+Consumer thread 251760640l sleeping for 2 seconds
+Insert_item inserted item 537140623 at position 3
+[empty][1951894885][537140623][empty][empty]in = 4, out = 2
+Producer thread 247468032l inserted value 537140623
+Producer thread 247468032l sleeping for 1 seconds
+Remove_item removed item 1951894885 at position 2
+[empty][empty][537140623][empty][empty]in = 4, out = 3
+Consumer thread 251224064l removed value 1951894885
+Consumer thread 251224064l sleeping for 1 seconds
+Insert_item inserted item 992663534 at position 4
+[empty][empty][537140623][992663534][empty]in = 5, out = 3
+Producer thread 246394880l inserted value 992663534
+Producer thread 246394880l sleeping for 2 seconds
+Insert_item inserted item 1358796011 at position 5
+[empty][empty][537140623][992663534][1358796011]in = 1, out = 3
+Producer thread 248004608l inserted value 1358796011
+Producer thread 248004608l sleeping for 1 seconds
+Insert_item inserted item 1771024152 at position 1
+[1771024152][empty][537140623][992663534][1358796011]in = 2, out = 3
+Producer thread 247468032l inserted value 1771024152
+Producer thread 247468032l sleeping for 1 seconds
+Remove_item removed item 537140623 at position 3
+[1771024152][empty][empty][992663534][1358796011]in = 2, out = 4
+Consumer thread 249077760l removed value 537140623
+Consumer thread 249077760l sleeping for 2 seconds
+Remove_item removed item 992663534 at position 4
+[1771024152][empty][empty][empty][1358796011]in = 2, out = 5
+Consumer thread 251224064l removed value 992663534
+Consumer thread 251224064l sleeping for 3 seconds
+Insert_item inserted item 2049590396 at position 2
+[1771024152][2049590396][empty][empty][1358796011]in = 3, out = 5
+Producer thread 248541184l inserted value 2049590396
+Producer thread 248541184l sleeping for 1 seconds
+Insert_item inserted item 621301815 at position 3
+[1771024152][2049590396][621301815][empty][1358796011]in = 4, out = 5
+Producer thread 248004608l inserted value 621301815
+Producer thread 248004608l sleeping for 2 seconds
+Remove_item removed item 1358796011 at position 5
+[1771024152][2049590396][621301815][empty][empty]in = 4, out = 1
+Consumer thread 250687488l removed value 1358796011
+Consumer thread 250687488l sleeping for 3 seconds
+Remove_item removed item 1771024152 at position 1
+[empty][2049590396][621301815][empty][empty]in = 4, out = 2
+Consumer thread 250150912l removed value 1771024152
+Consumer thread 250150912l sleeping for 2 seconds
+Remove_item removed item 2049590396 at position 2
+[empty][empty][621301815][empty][empty]in = 4, out = 3
+Consumer thread 249614336l removed value 2049590396
+Consumer thread 249614336l sleeping for 1 seconds
+Remove_item removed item 621301815 at position 3
+[empty][empty][empty][empty][empty]in = 4, out = 4
+Consumer thread 251760640l removed value 621301815
+Consumer thread 251760640l sleeping for 2 seconds
+Insert_item inserted item 1104740033 at position 4
+[empty][empty][empty][1104740033][empty]in = 5, out = 4
+Producer thread 247468032l inserted value 1104740033
+Producer thread 247468032l sleeping for 3 seconds
+Insert_item inserted item 1567121210 at position 5
+[empty][empty][empty][1104740033][1567121210]in = 1, out = 4
+Producer thread 246394880l inserted value 1567121210
+Producer thread 246394880l sleeping for 1 seconds
+Insert_item inserted item 1866729662 at position 1
+[1866729662][empty][empty][1104740033][1567121210]in = 2, out = 4
+Producer thread 248541184l inserted value 1866729662
+Producer thread 248541184l sleeping for 1 seconds
+Main thread exiting
+]0;~/Desktop/CS4560/multi_producer_consumer/multi_producer_consumerbash: __git_ps1: command not found
+[multi_producer_consumer]$ exit
+exit
+
+Script done on Wed Jun  4 22:01:23 2014
